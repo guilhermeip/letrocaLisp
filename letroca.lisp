@@ -78,8 +78,7 @@
 )
 (defun main ()
     
-    (format t "Selecione o nível desejado:~%(1)Fácil~%(2)
-    Médio~%(3)Intermediário~%(4)Difícil~%(5)Supremo~%(6)Impossível")
+    (format t "Selecione o nível desejado:~%(1)Fácil~%(2)Médio~%(3)Intermediário~%(4)Difícil~%(5)Supremo~%(6)Impossível~%")
     (defvar nivel (read))
 
     (case nivel
