@@ -21,6 +21,7 @@
      )
 )
 (defun onInit (nomeArquivo)
+    (load "~/quicklisp/setup.lisp")
     (defvar arquivo nil)
     (setq arquivo (open (concatenate 'string "niveis/" nomeArquivo) :if-does-not-exist nil))
         (when arquivo
